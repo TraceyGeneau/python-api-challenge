@@ -152,6 +152,10 @@ To succeed on this deliverable of the assignment, open the `VacationPy.ipynb` st
 1. Create a map that displays a point for every city in the `city_data_df` DataFrame as shown in the following image. The size of the point should be the humidity in each city.
 
 
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/step%201%20map.png)
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/Step%201%20Map%20Hover.png)
+
 2. Narrow down the `city_data_df` DataFrame to find your ideal weather condition. For example:
 
 - A max temperature lower than 27 degrees but higher than 21
@@ -166,7 +170,9 @@ To succeed on this deliverable of the assignment, open the `VacationPy.ipynb` st
 
 5. Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
 
-![Hotel map](link-to-image)
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/Step%205%20map.png)
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/Step%205%20Map%20Hover.png)
 
 
 
