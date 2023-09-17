@@ -80,6 +80,7 @@ You should create the following plots:
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
 ### Temperature vs. Latitude Linear Regression Plot
+***
 
 ![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/fig%205%20Northern%20Hemi.png)
 
@@ -94,7 +95,51 @@ From the equation of the line we can see that the slope is positive for the Sout
 Also, the larger slope in the Southern Hemisphere indicates a quicker change in temperature as one approaches the equator but it does not reach as high of a maximum temperature (25-35C) as it reaches the equator, whereas the Northern Hemisphere warms up at a slower rate but sees a higher maximum temperatures closer to the equator (30-40C).
 
 
-### Part 2: VacationPy
+### Humidity vs. Latitude Linear Regression Plot
+***
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/fig%207%20northern.png)
+
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/fig%208%20Southern.png)
+
+#### Discussion about the linear relationship:
+
+The linear regression results and the slope for both the Northern and Southern Hemispheres indicated that there was too much variation in the data to show any correlation between the latitude and humidity. The slow for both indicated a slight slope that is almost not present. In the case of the Southern Hemisphere it increased at a slper of 0.02 towards the equator but in the case of the Northern Hemisphere, the slope increased as the distance moved away from the equator.
+
+Although further analysis of data would need to be carried out, based on this data alone, there are too many factors that affect the humidity of an area to say it is just based on latitude alone.
+
+### Cloudiness vs. Latitude Linear Regression Plot
+***
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/fig%209%20northern.png)
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/fig%2010%20Southern.png)
+
+#### Discussion about the linear relationship:
+
+The cloudiness in the Nothern Hemisphere appears to have a relatively low R squared value. As can be observed form the data and the line of regression (slope = 0.02) the relationship between Cloudiness and Latitude has a lot of variation coming from other factors.
+
+In the Southern Hemisphere the data indicates a slight increase (slope =0.36) in cloudiness as the Latitude approaches the equator. The R squared is relatively low indicating there is a large amount of variation that is likely caused by other sources.
+
+### Wind Speed vs. Latitude Linear Regression Plot
+***
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/fig%2011%20Northern.png)
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/fig%2012%20southern.png)
+
+#### Discussion about the linear relationship:
+
+The variation in the wind speed results for each lattitude in the Northern Hemisphere resulted in an R squared of 0.0002. The consistency in the wind speeds at all lattitudes is quite impressive.
+
+In the Southern Hemisphere the R squared (0.030) also indicated that variation at each lattitude was high. There was a very slight decrease in Wind Speed as the results approached the equator (0).
+
+Interestingly, the wind speed in the Northern Hemisphere concentrated between 0 and 10 m/s (with some values outside of this range of course, where as the winds in the Southern Hemisphere were concentrated between 0-7 (m/s).
+
+It would be interested to determine if there were significant differences in the data sets.
+
+***
+## Part 2: VacationPy
 
 In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the `geoViews` Python library, and the Geoapify API.
 
