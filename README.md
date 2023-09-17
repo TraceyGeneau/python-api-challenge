@@ -10,7 +10,7 @@ Data's true power is its ability to definitively answer questions. So, let's tak
 4. Inside the folder you just created, add the files called `api_keys.py`, `WeatherPy.ipynb`, and `VacationPy.ipynb` that you will find in the starter code ZIP file provided. These will be the main scripts to run for each analysis.
 5. Before you push your changes to GitHub, add a `.gitignore` file.
 
-## Add a `.gitignore` File
+#### Add a `.gitignore` File
 
 For this assignment, you will need to add a `.gitignore` file to your repo. Doing so will prevent the `api_keys.py` file that contains your API key from being shared with the public. If you skip this step, anyone using GitHub could copy and use your API key, and you may incur charges as a result.
 
@@ -30,11 +30,7 @@ api_keys.py
 5. Use `git add`, `git commit`, and `git push` to commit the modifications to the `.gitignore`, `WeatherPy.ipynb`, and `VacationPy.ipynb` files to GitHub.
 6. On GitHub, the only new python files you should find are `WeatherPy.ipynb` and `VacationPy.ipynb`.
 
-## Files
 
-Download the following files to help you get started:
-
-[Module 6 Challenge files](#) (Links to an external site.)
 
 ## Instructions
 
@@ -61,7 +57,14 @@ To fulfill the second requirement, compute the linear regression for each relati
 
 Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r values as you can see in the following image:
 
-![Sample scatter plot with the linear regression line](link-to-image)
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/MaxTemp(Fig1).png)
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/(Humidity)Fig2.png)
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/Cloudiness(Fig3).png)
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/WindSpeed(Fig4).png)
+
 
 You should create the following plots:
 
@@ -76,6 +79,21 @@ You should create the following plots:
 
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
+### Temperature vs. Latitude Linear Regression Plot
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/fig%205%20Northern%20Hemi.png)
+
+![](https://github.com/TraceyGeneau/python-api-challenge/blob/main/output_data/Fig%206%20Southern%20Hemi.png)
+
+#### Discussion about the linear relationship:
+
+The R squared value for the Northn Hemisphere data was 0.60 and the R squarred for the Southern Hemisphere was 0.61. Both models had a moderate amount of variance with the Northern Hemisphere showing slightly higher varience. This makes perfect sense as there are many factors besides latitude that would affect the temperature of any location. Some examples would include approximate distance from water bodies, altitude, presence of wind, cloudiness or weather.
+
+From the equation of the line we can see that the slope is positive for the Southern Hemisphere as it approaches the equator (0) and negative in the Northern Hemisphere as it approaches the Equator. Both of these slopes make complete sense because the temperature as one moves from the poles into the equator will be warmer.
+
+Also, the larger slope in the Southern Hemisphere indicates a quicker change in temperature as one approaches the equator but it does not reach as high of a maximum temperature (25-35C) as it reaches the equator, whereas the Northern Hemisphere warms up at a slower rate but sees a higher maximum temperatures closer to the equator (30-40C).
+
+
 ### Part 2: VacationPy
 
 In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the `geoViews` Python library, and the Geoapify API.
@@ -88,7 +106,6 @@ To succeed on this deliverable of the assignment, open the `VacationPy.ipynb` st
 
 1. Create a map that displays a point for every city in the `city_data_df` DataFrame as shown in the following image. The size of the point should be the humidity in each city.
 
-![Humidity map](link-to-image)
 
 2. Narrow down the `city_data_df` DataFrame to find your ideal weather condition. For example:
 
